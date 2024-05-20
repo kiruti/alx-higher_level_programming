@@ -6,4 +6,4 @@ for i in range(0, 100):
     else:
         x = "99 "
 
-    print(x,end=" ")
+    print(x ,end=" ")
