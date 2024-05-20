@@ -4,7 +4,7 @@ for i in range(0, 100):
     if a != "99":
          x = a+", "
     else:
-        x = "99"
+        x = "99 "
 
     print(x , end="")  
 
