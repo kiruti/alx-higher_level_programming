@@ -6,9 +6,10 @@ def uppercase(str):
         if ord(x) >= ord('a') and ord(x) <= ord('z'):
             capital = ord(x)-32
             v = chr(capital)
-            print(v , end=(''))
+            b = v
         else:
-            print(x, end=(''))
+            b = x
 
-    
+    print (b , end=" ")
+
     print()
