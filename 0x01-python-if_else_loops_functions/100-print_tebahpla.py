@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-i = 97
-while  :
-    print(i)
-i -= 1
+for i in range(122, 96, -1):
+    if i % 2 == 0:
+       a = i
+    else: 
+        a = i - 32 
+    print(chr(a), end="")
